@@ -1,5 +1,6 @@
 #!/bin/bash
 # Script to restrict time and service access of kids
+configure
 
 # Create Time period
 set service webproxy url-filtering squidguard time-period KidsBlock description 'Kids device off time'
